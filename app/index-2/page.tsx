@@ -17,7 +17,6 @@ export default function HomePage2() {
 				<Home2 />
 				<Static2 />
 				<Service2 />
-				<Experience2 />
 				<Education2 />
 				<Projects2 />
 				<Skills2 />
