@@ -73,28 +73,23 @@ export default function Education2() {
 									<ul className="ps-3">
 										<li className="position-relative z-1 mb-3">
 											<div className="d-flex gap-2">
-												{/* <p className="text-300 text-nowrap fw-regular mb-0">2023-2024:</p> */}
+												<p className="text-300 text-nowrap fw-regular mb-0">2019-Now:</p>
 												<div>
-													<span className="text-primary-2">Analytical Problem Solving</span>
-													<p className="text-dark">6+ years of experience in translating complex business requirements into functional, high-quality web applications.</p>
+													<span className="text-primary-2">Present Fullstack Web Developer | PT. Kitereative Teknologi Indonesia (Remote)</span>
+													<p className="text-dark">Building a wide range of custom digital solutions, including E-commerce, EdTech, and diverse Enterprise-grade systems.</p>
+													<p className="text-dark">Developing high-concurrency backend services using Golang (gRPC) and Laravel to ensure maximum performance and scalability.</p>
+													<p className="text-dark">Crafting dynamic, responsive user interfaces with React, Next.js, and Tailwind CSS.</p>
+													<p className="text-dark">Translating complex business requirements into robust web applications for various industry sectors.</p>
 												</div>
 											</div>
 										</li>
 										<li className="position-relative z-1 mb-3">
 											<div className="d-flex gap-2">
-												{/* <p className="text-300 text-nowrap fw-regular mb-0">2021-2013:</p> */}
+												<p className="text-300 text-nowrap fw-regular mb-0">2013-2018:</p>
 												<div>
-													<span className="text-primary-2">Discipline & Integrity</span>
-													<p className="text-dark">Applying the rigorous discipline gained from Al-Qur'an memorization to write clean, maintainable, and well-structured code.</p>
-												</div>
-											</div>
-										</li>
-										<li className="position-relative z-1 mb-3">
-											<div className="d-flex gap-2">
-												{/* <p className="text-300 text-nowrap fw-regular mb-0">2019-2020:</p> */}
-												<div>
-													<span className="text-primary-2">Fullstack Developer & IT Educator</span>
-													<p className="text-dark">Leveraging 6+ years of remote development at <br />PT. Kitereative and nearly 3 years of teaching to deepen my technical mastery. I believe that teaching is the best way to solidify complex concepts and deliver cleaner, more effective code.</p>
+													<span className="text-primary-2">Video Editor & Designer| PT. Media Utama Televisi Pontianak</span>
+													<p className="text-dark">Handled professional video editing and visual design for broadcasting needs.</p>
+													<p className="text-dark">Developed a strong foundation in digital creative tools and visual communication.</p>
 												</div>
 											</div>
 										</li>
