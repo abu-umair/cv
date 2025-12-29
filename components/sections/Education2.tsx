@@ -67,7 +67,7 @@ export default function Education2() {
 									<svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 32 32" fill="none">
 										<path className="fill-primary-2" d="M20 4H28V10.6667H25.3333V6.66667H20V4ZM12 4V6.66667H6.66667V10.6667H4V4H12ZM20 28V25.3333H25.3333V21.3333H28V28H20ZM12 28H4V21.3333H6.66667V25.3333H12V28ZM4 14.6667H28V17.3333H4V14.6667Z" fill="#A8FF53" />
 									</svg>
-									<h2 className="mb-0 ms-2">Professional Value</h2>
+									<h2 className="mb-0 ms-2">Experience</h2>
 								</div>
 								<div className="d-flex flex-column h-100 position-relative mt-5">
 									<ul className="ps-3">
