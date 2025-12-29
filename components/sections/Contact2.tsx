@@ -73,7 +73,7 @@ export default function Contact2() {
 								</div>
 								<div className="ps-3 h-100">
 									<span className="text-400 fs-6">Linkedin</span>
-									<h6 className="mb-0">WilliamDesignUX</h6>
+									<h6 className="mb-0">Muhammad Ridwan</h6>
 								</div>
 								<a href="https://www.linkedin.com/in/abu-umair-ridwan/"
 									target="_blank"
