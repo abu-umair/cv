@@ -51,7 +51,7 @@ export default function Contact2() {
 									<span className="text-400 fs-6">Phone Number</span>
 									<h6 className="mb-0">+62-89654-999-868</h6>
 								</div>
-								<a href="tel:+1-234-567-8901" className="position-absolute top-0 start-0 w-100 h-100" />
+								{/* <a href="tel:+1-234-567-8901" className="position-absolute top-0 start-0 w-100 h-100" /> */}
 							</div>
 							<div className="d-flex align-items-center mb-3 position-relative d-inline-flex">
 								<div className="d-inline-block">
@@ -63,7 +63,7 @@ export default function Contact2() {
 									<span className="text-400 fs-6">Email</span>
 									<h6 className="mb-0">wawanleite@gmail.com</h6>
 								</div>
-								<a href="mailto:someone@example.com" className="position-absolute top-0 start-0 w-100 h-100" />
+								<a href="mailto:wawanleite@gmail.com" className="position-absolute top-0 start-0 w-100 h-100" />
 							</div>
 							<div className="d-flex align-items-center mb-3 position-relative d-inline-flex">
 								<div className="d-inline-block">
@@ -75,7 +75,10 @@ export default function Contact2() {
 									<span className="text-400 fs-6">Linkedin</span>
 									<h6 className="mb-0">WilliamDesignUX</h6>
 								</div>
-								<a href="skype:SKYPENAME?add" className="position-absolute top-0 start-0 w-100 h-100" />
+								<a href="https://www.linkedin.com/in/abu-umair-ridwan/"
+									target="_blank"
+									rel="noopener noreferrer"
+									className="position-absolute top-0 start-0 w-100 h-100" />
 							</div>
 							<div className="d-flex align-items-center mb-3 position-relative d-inline-flex">
 								<div className="d-inline-block">
@@ -87,7 +90,7 @@ export default function Contact2() {
 									<span className="text-400 fs-6">Address</span>
 									<h6 className="mb-0">Bogor Selatan, Indonesia</h6>
 								</div>
-								<a href="https://maps.google.com/maps?q=1st+avenue,New+York" className="position-absolute top-0 start-0 w-100 h-100" />
+								{/* <a href="https://maps.google.com/maps?q=1st+avenue,New+York" className="position-absolute top-0 start-0 w-100 h-100" /> */}
 							</div>
 						</div>
 					</div>
