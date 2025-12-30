@@ -1,8 +1,13 @@
-
+"use client";
 import Link from 'next/link'
 import Marquee from 'react-fast-marquee'
 
 export default function Home2() {
+	const handleDownloadAndPreview = (e) => {
+		// 1. Membuka preview di tab baru
+		window.open('/assets/imgs/resume/muhamad-ridwan.pdf', '_blank');
+	};
+
 	return (
 		<>
 
@@ -114,10 +119,15 @@ export default function Home2() {
 												<span className="fs-6 text-300 mb-2">...and more</span>
 											</div>
 										</div>
-										<Link href="assets/resume.pdf" className="btn me-2 text-300 ps-0 mt-4" target="_blank">
+										<a
+											href="/assets/imgs/resume/muhamad-ridwan.pdf"
+											className="btn me-2 text-300 ps-0 mt-4"
+											download="CV_Muhamad_Ridwan.pdf" // Memicu download
+											onClick={handleDownloadAndPreview} // Memicu buka tab baru (Preview)
+										>
 											<i className="ri-download-line text-primary-2" />
 											[ Download my CV ]
-										</Link>
+										</a>
 									</div>
 								</div>
 							</div>
