@@ -156,7 +156,7 @@ export default function Skills2() {
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
 																	<p className="text-dark text-nowrap mb-0">Others:</p>
-																	<span className="text-300">RESTful APIs, Websocket, gRPC</span>
+																	<span className="text-300">RESTful APIs, Websocket, gRPC, VPS, Cpanel, FrankenPHP, Caddy, Nginx, Apache</span>
 																</div>
 															</li>
 														</ul>
