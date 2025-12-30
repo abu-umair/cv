@@ -3,8 +3,7 @@ import Link from 'next/link'
 import Marquee from 'react-fast-marquee'
 
 export default function Home2() {
-	const handleDownloadAndPreview = (e) => {
-		// 1. Membuka preview di tab baru
+	const handleDownloadAndPreview = () => {
 		window.open('/assets/imgs/resume/muhamad-ridwan.pdf', '_blank');
 	};
 
