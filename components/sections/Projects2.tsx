@@ -8,6 +8,7 @@ const projects = [
 	{
 		id: 1,
 		title: <>High-Performance Furniture <br /> E-Commerce System</>,
+		alt: "High-Performance Furniture E-Commerce System",
 		description: "Developed a robust end-to-end e-commerce platform focusing on high-concurrency and type-safety. Successfully implemented a microservices-ready architecture with a completed certification.",
 		client: "Professional Development / Certification Project",
 		// duration: "6 months"High-Performance Furniture <br/> E-Commerce System,
@@ -98,7 +99,7 @@ export default function Projects2() {
 																<img
 																	className="w-100 rounded-1"
 																	src={project.image}
-																	alt={project.title}
+																	alt={project.alt ?? project.title}
 																/>
 															</div>
 
