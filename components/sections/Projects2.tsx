@@ -99,7 +99,7 @@ export default function Projects2() {
 																<img
 																	className="w-100 rounded-1"
 																	src={project.image}
-																	// alt={project.alt ?? project.title}
+																	alt={project.alt ?? project.title}
 																/>
 															</div>
 
