@@ -20,9 +20,9 @@ export default function Education2() {
 										<ul className="ps-3">
 											<li className="position-relative z-1 mb-3">
 												<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0">2025:</p>
+													<p className="text-300 text-nowrap fw-regular mb-0">2026:</p>
 													<div>
-														<span className="text-primary-2">2025 - Present (Upcoming) Bachelor of Information Technology (S1)</span>
+														<span className="text-primary-2">Present (Upcoming) Bachelor of Information Technology (S1)</span>
 														<p className="text-dark">Pursuing a formal degree to complement my practical expertise and professional background in the IT industry.</p>
 													</div>
 												</div>
