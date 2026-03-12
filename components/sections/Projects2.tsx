@@ -7,6 +7,18 @@ import { Swiper, SwiperSlide } from "swiper/react"
 const projects = [
 	{
 		id: 1,
+		title: <>Next-Gen Coding LMS <br /> Empowering Learners</>,
+		alt: "Next-Gen Coding LMS Empowering Learners",
+		description: "A next-generation Learning Management System (LMS) designed to transform coding education. Built with Go and gRPC for high-performance backend, PostgreSQL for reliable data management, and Next.js with TypeScript for an engaging, scalable frontend. Empowering learners with interactive lessons, real-time communication, and a modern coding experience.",
+		client: "Educational Platform / Personal Project (on progress 35% completed)",
+		// duration: "On Progress (40% completed)",
+		technologies: "Go, gRPC, PostgreSQL, Next.js, TypeScript",
+		image: "assets/imgs/home-page-2/projects/next-gen.jpg",
+		liveLink: "#",
+		githubLink: "#"
+	},
+	{
+		id: 2,
 		title: <>High-Performance Furniture <br /> E-Commerce System</>,
 		alt: "High-Performance Furniture E-Commerce System",
 		description: "Developed a robust end-to-end e-commerce platform focusing on high-concurrency and type-safety. Successfully implemented a microservices-ready architecture with a completed certification.",
@@ -18,7 +30,7 @@ const projects = [
 		githubLink: "#"
 	},
 	{
-		id: 2,
+		id: 3,
 		title: "Integrated Pharmacy Management & Administration System",
 		description: "Developed a high-stakes web platform for the Indonesian Pharmacists Association (IAI). Built under a strict 2-month deadline for a national event attended by the Ministry of Health (Kemenkes).",
 		client: "HISFARMA (Indonesia)",
@@ -29,7 +41,7 @@ const projects = [
 		githubLink: "#"
 	},
 	{
-		id: 3,
+		id: 4,
 		title: "Smart Home Dashboard & Mobile Integration",
 		description: "An integrated Smart Home solution featuring doorbell monitoring and automated controls. Developed for the European market with secure international payment processing.",
 		client: "Smart Home Tech (France)",
@@ -40,7 +52,7 @@ const projects = [
 		githubLink: "#"
 	},
 	{
-		id: 4,
+		id: 5,
 		title: "Interactive Learning & Subscription Management System",
 		description: "A comprehensive EdTech platform featuring complex quiz engines, category management, and a multi-tier user subscription model.",
 		client: "Cermatik (Czech Republic)",
