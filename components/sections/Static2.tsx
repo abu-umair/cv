@@ -15,8 +15,8 @@ export default function Static2() {
 										<div className="content mx-auto">
 											<i className="ri-shape-line text-primary-2" />
 											<h2 className="text-300 my-0 fs-50">
-												<CountUp className="odometer text-dark fw-medium" enableScrollSpy={true} end={6} />
-												{/* <span className="odometer text-dark fw-medium" >6</span> */}
+												{/* <CountUp className="odometer text-dark fw-medium" enableScrollSpy={true} end={7} /> */}
+												<span className="odometer text-dark fw-medium" >7</span>
 												<span className="fs-50 text-300 mb-0">+</span>
 											</h2>
 											<p className="fs-6 mb-0 text-dark">Year Experience</p>
@@ -28,8 +28,8 @@ export default function Static2() {
 										<div className="content mx-auto">
 											<i className="ri-computer-line text-primary-2" />
 											<h2 className="text-300 my-0 fs-50">
-												<CountUp className="odometer text-dark fw-medium" enableScrollSpy={true} end={10} />
-												{/* <span className="odometer text-dark fw-medium" >10</span> */}
+												{/* <CountUp className="odometer text-dark fw-medium" enableScrollSpy={true} end={10} /> */}
+												<span className="odometer text-dark fw-medium" >10</span>
 												<span className="fs-50 text-300 mb-0">+</span>
 											</h2>
 											<p className="fs-6 mb-0 text-dark">Projects Completed</p>
