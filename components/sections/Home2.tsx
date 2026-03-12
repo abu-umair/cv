@@ -4,7 +4,7 @@ import Marquee from 'react-fast-marquee'
 
 export default function Home2() {
 	const handleDownloadAndPreview = () => {
-		window.open('/assets/imgs/resume/muhamad-ridwan.pdf', '_blank');
+		window.open('/assets/imgs/resume/muhammad-ridwan.pdf', '_blank');
 	};
 
 	return (
