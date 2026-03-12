@@ -3,7 +3,7 @@ import Link from 'next/link'
 import OffCanvas from '../OffCanvas'
 import MobileMenu from '../MobileMenu'
 
-export default function Header3({ scroll, isMobileMenu, handleMobileMenu,isOffCanvas, handleOffCanvas }: any) {
+export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isOffCanvas, handleOffCanvas }: any) {
 	return (
 		<>
 			<header>

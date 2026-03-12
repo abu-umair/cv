@@ -3,10 +3,10 @@ import Link from 'next/link'
 import OffCanvas from '../OffCanvas'
 import MobileMenu from '../MobileMenu'
 
-export default function Header2({ scroll, isMobileMenu, handleMobileMenu,isOffCanvas, handleOffCanvas }:any) {
-    return (
-        <>
-            <header>
+export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isOffCanvas, handleOffCanvas }: any) {
+	return (
+		<>
+			<header>
 				<div className="container position-relative">
 					<div className="position-relative">
 						<nav className="navbar navbar-expand-lg navbar-home-2 flex-nowrap z-999 p-0 border border-1 rounded-3">
@@ -44,16 +44,16 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu,isOffCa
 								</div>
 								<div className="navbar-social d-flex align-items-center pe-5 pe-lg-0 me-5 me-lg-0">
 									<div className="d-md-flex d-none gap-3">
-										<Link href="/https://www.facebook.com/hambaAllahAlazim">
+										<Link href="https://www.facebook.com/hambaAllahAlazim">
 											<i className="ri-facebook-circle-fill fs-18" />
 										</Link>
-										{/* <Link href="/http://twitter.com">
+										{/* <Link href="http://twitter.com">
 											<i className="ri-twitter-x-fill fs-18" />
 										</Link> */}
-										<Link href="/https://www.linkedin.com/in/abu-umair-ridwan/">
+										<Link href="https://www.linkedin.com/in/abu-umair-ridwan/">
 											<i className="ri-linkedin-fill fs-18" />
 										</Link>
-										<Link href="/https://github.com/abu-umair">
+										<Link href="https://github.com/abu-umair">
 											<i className="ri-github-fill fs-18" />
 										</Link>
 									</div>
@@ -72,6 +72,6 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu,isOffCa
 					<MobileMenu isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} />
 				</div>
 			</header>
-        </>
-    )
+		</>
+	)
 }
